@@ -1,0 +1,99 @@
+// color variables
+
+$black: #000000;
+$grey: #a9a9a9;
+$light-grey: #d3d3d3;
+
+// Body background
+
+body {
+  //font-family: ;
+}
+
+// Customise button classes
+
+div {
+  .ui.button {
+    background: white;
+    border: $light-grey solid 2px;
+  }
+}
+
+// Font family + text classes
+
+html {font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif}
+
+h1 {font-size: 2.5em; font-weight: bolder}
+
+// width properties
+
+#form-width {
+  width: 70%;
+  background-color: white;
+  box-shadow: 10px #000000;
+
+  @media only screen and (max-width: 767px) {
+    width: 70% !important;
+  }
+
+  @media only screen and (min-width: 768px) {
+    width: 40%;
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    width: 35%;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    width: 25%;
+  }
+}
+
+.w-50 {width: 50%;}
+.w-60{width: 60%;}
+.w-70{width: 70%;}
+.w-80{width: 80%;}
+
+// text align
+
+.t-left { text-align: left; }
+.t-right { text-align: right; }
+
+//margin and padding presets
+
+#m-auto { margin: auto }
+
+.m-1 {margin: 1.5rem}
+.m-2 {margin: 2rem}
+.m-3 {margin: 2.5rem}
+.m-4 {margin: 4rem}
+
+.mt-15 {margin-top: 15rem}
+
+.p-1 {padding: 1rem}
+.p-2 {padding: 1.5rem}
+.p-3 {padding: 2rem}
+.p-4{padding: 2.5rem}
+
+.pt-1 {padding-top: 1rem}
+.pt-2 {padding-top: 1.5rem}
+.pt-3 {padding-top: 2rem}
+.pt-4{padding-top: 2.5rem}
+
+.top-15 { top: 15rem}
+
+// Random classes
+
+div .App {
+  display: flex;
+  justify-content: center;
+  height: 45rem;
+}
+
+.text-lg {
+  color: $light-grey;
+}
+
+.bg-lightgrey {
+  background-color: $light-grey;
+}
